@@ -1,0 +1,626 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0;
+	padding:0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:16px;
+	background-color:#666666;
+	background:url(../images/back_main_body/back_main_body.jpg) no-repeat;
+	overflow: auto;
+	background-attachment:fixed;
+}
+
+span {
+	font-size:12px;
+}
+
+.boxBackground {
+	width:100%;
+	height:100%;
+	
+}
+
+	.mainBox {
+		width:970px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	.clearFloats {
+		clear:both;
+	}
+	
+		.leftColumn {
+			width:333px;
+			float:left;
+		}
+		
+			.containerLogo {
+				width:inherit;
+				height:150px;
+				background-color:#fff;
+				text-align:center;
+			}
+			
+				.containerLogo img {
+					margin-top:15px;
+				}
+				
+				.containerMenu {
+					width:inherit;
+					height:263px;
+					padding-top:5px;
+				}
+				
+					.wrapperButtonActive, .wrapperButton {
+						width:inherit;
+						height:50px;
+						background:url(../images/back_menu_buttons/back_menu_active.png) no-repeat;
+					}
+					
+					.wrapperButton {
+						background:url(../images/back_menu_buttons/back_menu.png) no-repeat;
+					}
+					
+						.wrapperButtonActive h3, .wrapperButton h3 {
+							margin:0;
+							padding:0;
+							font-size:13px;
+							padding-top:17px;
+							padding-left:45px;
+						}
+						
+							.wrapperButtonActive h3 a, .wrapperButton h3 a {
+								text-decoration:none;
+								color:#fff;
+							}
+							
+							.wrapperButton h3 a {
+								color:#504f4f;
+							}
+							
+							.wrapperButtonActive h3 a:hover {
+								text-decoration:underline;
+							}
+							
+							.wrapperButton h3 a:hover {
+								text-decoration:underline;
+							}
+							
+					.containerUltimaLucrareInfoContact {
+						width:inherit;
+						height:100%;
+						background:url(../images/back_menu_buttons/back_menu.png) repeat-y;
+						margin-top:140px;
+						padding-top:25px;
+						padding-bottom:75px;
+					}
+					
+						.headerUltimaLucrare, .headerInformatiiContact {
+							width:240px;
+							height:35px;
+							border-left:3px solid #e8943e;
+							margin-left:35px;
+						}
+						
+						.headerInformatiiContact {
+							margin-top:35px;
+						}
+						
+							.headerUltimaLucrare h3, .headerInformatiiContact h3 {
+								margin:0;
+								padding:0;
+								color:#7e7c7c;
+								font-size:25px;
+								padding-top:10px;
+								padding-left:10px;
+								font-weight:normal;
+							}
+							
+						.containerPicUltimaLucrare {
+							width:262px;
+							margin-left:auto;
+							margin-right:auto;
+							background:#fff;
+							margin-top:15px;
+						}
+				
+						
+							.containerPicUltimaLucrare img {
+								margin:5px 5px;
+							}
+							
+						.containerDescriereUltimaLucrare {
+							width:262px;
+							margin-left:auto;
+							margin-right:auto;
+							padding-top:15px;
+						}
+						
+							.containerDescriereUltimaLucrare p {
+								margin:0;
+								padding:0;
+								color:#4e4d4d;
+							}
+							
+						
+						.containerMaiMulteDetaliiLeftColumn {
+							width:313px;
+							height:22px;
+							background:#e8943e;
+							margin-top:20px;
+							margin-left:20px;
+							padding-top:5px;
+						}
+						
+							.containerMaiMulteDetaliiLeftColumn ul {
+								margin:0;
+								padding:0;
+								display:inline;
+								padding-left:20px;
+								
+							}
+							
+								.containerMaiMulteDetaliiLeftColumn ul li {
+									display:inline;
+								}
+								
+									.containerMaiMulteDetaliiLeftColumn ul li a {
+										text-decoration:none;
+										color:#fff;
+									}
+									
+									.containerMaiMulteDetaliiLeftColumn ul li a:hover {
+										text-decoration:underline;
+									}
+									
+							.containerTextContact {
+								width:240px;
+								margin-left:35px;
+								padding-top:20px;
+								color:#4e4d4d;
+							}
+							
+							
+		
+		.rightColumn {
+			width:633px;
+			float:right;
+		}
+		
+			.containerTextDespreNoi {
+				width:inherit;
+				height:100%;
+				background:url(../images/back_container_despre_noi/back_container_despre_noi.png) repeat-y;
+				padding-top:70px;
+				padding-left:25px;
+				padding-bottom:40px;
+				margin-top:20px;
+			}
+			
+				.containerTextDespreNoi h3 {
+					margin:0;
+					padding:0;
+					color:#7e7c7c;
+					font-size:20px;
+				}
+				
+				.containerTextDespreNoi p {
+					margin:0;
+					padding:0;
+					color:#7e7c7c;
+					margin-top:15px;
+					margin-right:70px;
+				}
+				
+			.containerDetaliiRightColumn {
+				width:315px;
+				height:25px;
+				background-color:#e8943e;
+				float:right;
+				margin-top:25px;
+				margin-right:26px;
+				padding-top:5px;
+			}
+			
+				.containerDetaliiRightColumn ul {
+					margin:0;
+					padding:0;
+					display:inline;
+					margin-left:25px;
+				}
+				
+					.containerDetaliiRightColumn ul li {
+						display:inline;
+					}
+					
+					.containerDetaliiRightColumn ul li a {
+						text-decoration:none;
+						color:#fff;
+					}
+					
+					.containerDetaliiRightColumn ul li a:hover {
+						text-decoration:underline;
+					}
+					
+			.containerHeaderGalerieFotoLucrari {
+				width:inherit;
+				height:65px;
+				background:url(../images/back_header_galerie_foto_lucrari/back_header_foto_lucrari.png) no-repeat;
+				margin-top:5px;
+				margin-bottom:5px;
+			}
+			
+				.containerHeaderGalerieFotoLucrari h3 {
+					margin:0;
+					padding:0;
+					color:#7e7c7c;
+					font-size:20px;
+					padding-top:25px;
+					padding-left:20px;
+					font-weight:normal;
+				}
+				
+			.containerLucrareDescriereRightColumn, .containerPhotosGalerieFoto {
+				width:inherit;
+				margin-bottom:3px;
+			}
+			
+				.headerTopCompozitieContainerLucrare {
+					width:inherit;
+					height:4px;
+					background:url(../images/back_header_top_galerie_foto/back_galerie_foto_top.png) no-repeat;
+				}
+				
+				.headerMiddleCompozitieContainerLucrare {
+					width:inherit;
+					height:100%;
+					background:url(../images/back_header_top_galerie_foto/back_galerie_foto_middle.png) repeat-y;
+				}
+				
+				
+					.leftColumnPic {
+						width:211px;
+						float:left;
+						margin-top:3px;
+						margin-left:7px;
+						margin-bottom:15px;
+					}
+					
+						.leftColumnPic img {
+							margin-bottom:10px;
+						}
+					
+						.leftColumnPic p {
+							margin:0;
+							padding:0;
+							color:#7e7c7c;
+						}
+						
+							.containerLinkGalerieFotoLucrare {
+								width:211px;
+								height:17px;
+								background-color:#e8943e;
+								margin-left:7px;
+								float:left;
+								/*margin-top:10px;*/
+							}
+							
+								
+										
+										
+										
+						.rightColumnInfo {
+							width:390px;
+							float:right;
+							margin-right:5px;
+						}
+						
+							.rightColumnInfo h3 {
+								margin:0;
+								padding:0;
+								color:#7e7c7c;
+								padding-top:20px;
+								font-size:14px;
+								padding-right:25px;
+							}
+							
+							.rightColumnInfo p {
+								margin:0;
+								padding:0;
+								color:#7e7c7c;
+								padding-top:15px;
+								padding-bottom:15px;
+								padding-right:15px;
+							}				
+										
+				
+				
+				
+				.headerBottomCompozitieContainerLucrare {
+					width:inherit;
+					height:100%;
+					background:url(../images/back_header_top_galerie_foto/back_galerie_foto_bottom.png) repeat-y;
+					padding-bottom:20px;
+				}
+				
+					.containerLinkGalerieFotoLucrare ul {
+									margin:0;
+									padding:0;
+									display:inline;
+									margin-left:15px;
+								}
+								
+									.containerLinkGalerieFotoLucrare ul li {
+										display:inline;
+									}
+									
+										.containerLinkGalerieFotoLucrare ul li img {
+											position:relative;
+											/*top:5px;*/
+										}
+										
+										.containerLinkGalerieFotoLucrare ul li a {
+											text-decoration:none;
+											color:#fff;
+											position:relative;
+											/*top:-6px;*/
+											
+										}
+										
+										.containerLinkGalerieFotoLucrare ul li a:hover {
+											text-decoration:underline;
+										}
+										
+								.containerLinkPaginaLucrarii {
+									width:210px;
+									height:17px;
+									float:right;
+									background-color:#e8943e;
+									margin-right:2px;								
+								}
+								
+									.containerLinkPaginaLucrarii ul {
+										margin:0;
+										padding:0;
+										display:inline;
+										margin-left:15px;
+									}
+									
+										.containerLinkPaginaLucrarii ul li {
+											display:inline;
+										}
+										
+											.containerLinkPaginaLucrarii ul li a {
+												text-decoration:none;
+												color:#fff;
+											}
+											
+											.containerLinkPaginaLucrarii ul li a:hover {
+												text-decoration:underline;
+											}
+											
+					.containerLinkIntreagaColectieLucrari {
+						width:inherit;
+						height:36px;
+						background-color:#e8943e;
+						margin-top:6px;
+						padding-top:15px;
+					}
+					
+						.containerLinkIntreagaColectieLucrari ul {
+							margin:0;
+							padding:0;
+							display:inline;
+							float:right;
+							margin-right:20px;
+							color:#fff;
+						}
+						
+							.containerLinkIntreagaColectieLucrari ul li {
+								display:inline;
+								border-right:1px solid #fff;
+								padding-left:8px;
+								padding-right:5px;
+							}
+							
+							.containerLinkIntreagaColectieLucrari ul li.linkWithNoBorder {
+								display:inline;
+								border:none;
+								padding-left:5px;
+								padding-right:3px;
+							}
+							
+							.containerLinkIntreagaColectieLucrari ul li.linkViewingNow {
+								display:inline;
+								border:none;
+								padding-left:5px;
+								padding-right:3px;
+								font-size:20px;
+							}
+							
+							.containerLinkIntreagaColectieLucrari ul li a {
+								text-decoration:none;
+								color:#fff;
+							}
+							
+							.containerLinkIntreagaColectieLucrari ul li a:hover {
+								text-decoration:underline;
+							}
+							
+					.containerDevelopedBy {
+						width:inherit;
+						height:44px;
+						text-align:right;
+					}
+					
+
+
+/*CSS code for galerie_foto.html*/
+
+.containerPhotosGalerieFoto {
+	height:100%;
+	background:url(../images/back_container_galerie_foto/back_container_galerie_foto.png) repeat-y;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:40px;
+}
+			
+	.containerPhotosGalerieFoto h3 {
+		margin:0;
+		padding:0;
+		color:#7e7c7c;
+		font-size:14px;
+		padding-left:-15px;
+	}
+	
+	.containerPhotosGalerieFoto p {
+		margin:0;
+		padding:0;
+		color:#7e7c7c;
+		padding-top:15px;
+		padding-bottom:15px;
+		padding-right:85px;
+	}
+	
+	.wrapperPicGalerieFoto {
+		width:128px;
+		height:82px;
+		float:left;
+		background-color:#e8943e;
+		margin-top:15px;
+		margin-right:10px;
+	}
+	
+		.wrapperPicGalerieFoto img {
+			margin:2px 2px;
+		}
+		
+		
+.linkDescarcareDocumentAdobePDF {
+	width:390px;
+	margin-top:10px;
+}
+
+	.linkDescarcareDocumentAdobePDF ul {
+		margin:0;
+		padding:0;
+		display:inline;
+	}
+	
+		.linkDescarcareDocumentAdobePDF ul li {
+			display:inline;
+		}
+		
+			.linkDescarcareDocumentAdobePDF ul li a {
+				text-decoration:none;
+				color:#7e7c7c;
+				position:relative;
+				top:-10px;
+				font-weight:bold;
+			}
+			
+			.linkDescarcareDocumentAdobePDF ul li a:hover {
+				text-decoration:underline;
+			}
+		
+		
+.containerDenumireServiciu {
+	width:inherit;
+	padding-top:5px;
+	padding-bottom:5px;
+	
+}
+
+	.containerDenumireServiciu h3 {
+		margin:0;
+		padding:0;
+		font-size:17px;
+		color:#7e7c7c;
+		border-left:3px solid #e8943e;
+		padding-left:10px;
+		padding-right:60px;
+	}
+	
+		.containerDenumireServiciu h3 a {
+			font-size:12px;
+			text-decoration:none;
+			color:#7e7c7c;
+		}
+		
+		.containerDenumireServiciu h3 a:hover {
+			text-decoration:underline;
+		}	
+	
+/*css code for contact.html*/
+
+.containerForm {
+		width:inherit;
+		margin-left:auto;
+		margin-right:auto;
+		/*background-color:#d00d77;*/
+		/*padding-top:25px;*/
+		padding-bottom:25px;
+		/*border:1px solid #fff;*/
+	}
+	
+	.fieldsFormContact {
+		width:inherit;
+	}
+	
+	input, textarea, select {
+		font-family:inherit;
+		font-size:inherit;
+		font-weight:inherit;
+}
+
+				.fieldsFormContact #campContact {
+					border:none;
+					background-color:#fff;
+					height:16px;
+					padding:7px;
+					width:280px;
+					font-size:15px;
+				}
+				
+				.fieldsFormContact #campMesaj {
+					border:none;
+					background-color:#fff;
+					padding:7px;
+					width:280px;
+					height:100px;
+				}
+				
+				.fieldsFormContact #select, .fieldsFormContact #select2, .fieldsFormContact #select3 {
+					background-color:#fff;
+					padding:7px;
+					width:290px;
+				}
+				
+.btnTrimite {
+			width:inherit;
+			text-align:right;
+		}
+		
+		.btnTrimite #btnSendMessage {
+			margin-right:70px;
+			background-color:#e8943e;
+			border:none;
+			font-size:16px;
+			padding:5px 10px;
+			color:#fff;
+		}
+		
+		
+		.labelTitle {
+			display:block;
+			float:left;
+			margin-right:15px;
+			padding:10px 25px 0 0;
+			text-align:right;
+			width:100px;
+			font-size:15px;
+		}

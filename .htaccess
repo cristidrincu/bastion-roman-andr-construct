@@ -1,0 +1,10 @@
+options		-includes
+php_value 	include_path		".:/scripts/php:/usr/lib/php:/usr/local/lib/php:/usr/share/pear:/tmp"
+php_flag	register_globals	off
+#php_flag	display_errors		on
+#php_flag	short_open_tag		on
+
+RewriteEngine On
+#redirect http://mail.roman-construct.ro to WebMail interface
+RewriteCond %{HTTP_HOST} ^mail.roman-construct.ro [NC]
+RewriteRule ^(.*) https://roman-construct.ro:2096/ [L,R]
